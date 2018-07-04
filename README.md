@@ -41,7 +41,7 @@ if (cluster.isMaster) {
   //io.set('log level', 1);
 
   //io.set('origins', '*');
-  io.set('origins', 'http://dev.phlpp.de/nodecluster');
+  io.set('origins', 'localhost');
 
 
   for (var i = 0; i < os.cpus().length; i++) {
